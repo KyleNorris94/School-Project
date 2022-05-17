@@ -1,0 +1,54 @@
+html {
+	
+}
+
+ /* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+/* Centered text */
+.centered {
+  max-width: 130px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, -55%);
+} 
+.pokepreview {
+  width: 38%;
+  height: 50%;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-55%, -55%);
+border-radius: 10px;
+}
+
+ }
+/* The styles for the navigation menu */
+#nav_menu {
+    grid-area: navi;
+}
+#nav_menu ul {
+	list-style: none;
+    display: grid;
+    grid-template: auto / repeat(4, 1fr);
+    align-content: center;
+	margin: 0;
+	padding: 0;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	padding: .7em 0;
+	text-decoration: none;
+	background-color:red;
+}
+#nav_menu ul li a.current {
+	color: black; !important;
+}
+}
